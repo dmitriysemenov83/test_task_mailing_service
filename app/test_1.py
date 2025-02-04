@@ -1,7 +1,7 @@
 import os
-from app.tasks import send_email, send_telegram  # Предполагаем, что функции находятся в tasks.py
+from app.tasks import send_email, send_telegram
 
-# Установите переменные окружения для теста
+# переменные окружения для теста
 os.environ['SMTP_HOST'] = 'smtp.yandex.ru'
 os.environ['SMTP_PORT'] = '465'
 os.environ['SMTP_USER'] = 'mymail@yandex.ru'
